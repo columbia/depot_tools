@@ -14,7 +14,7 @@ class Chromium(config_util.Config):
     """Basic Config class for Chromium."""
     @staticmethod
     def fetch_spec(props):
-        url = 'https://chromium.googlesource.com/chromium/src.git'
+        url = 'https://github.com/columbia/chromium.git'
         solution = {
             'name': 'src',
             'url': url,

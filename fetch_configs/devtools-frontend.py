@@ -13,7 +13,7 @@ class DevToolsFrontend(config_util.Config):
     """Basic Config class for DevTools frontend."""
     @staticmethod
     def fetch_spec(props):
-        url = 'https://chromium.googlesource.com/devtools/devtools-frontend.git'
+        url = 'https://github.com/columbia/devtools-frontend.git'
         solution = {
             'name': 'devtools-frontend',
             'url': url,
